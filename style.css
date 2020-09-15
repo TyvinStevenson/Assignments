@@ -1,0 +1,24 @@
+body{
+  background-color: forestgreen;
+}
+h1{
+  color: azure;
+  text-align: center
+}
+p{
+  color:blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+table{border-collapse: collapse;}
+ol {
+  background: blue;
+  padding: 20px;
+}
+
+ol li{ background: lightblue;
+  padding: 5px;
+  margin-left: 35px;}
+td{ background: grey;
+font-family: serif }
+

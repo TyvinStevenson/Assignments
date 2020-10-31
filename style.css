@@ -5,6 +5,31 @@ h1{
   color: azure;
   text-align: center
 }
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.nav{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav:hover {
+  background-color: #ddd;
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .nav  {
+    float: none;
+    width: 100%;
+  }
+}
+
 p{
   color:blue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
